@@ -195,7 +195,7 @@ a:hover {
     align-items:left ;
     justify-content:left ;
 }
-.content{
+/*.content{
     display:grid;
     background-color: aqua;
     flex-flow: column;
@@ -206,4 +206,51 @@ a:hover {
 }
 .con{
     align-items:end ;
+    }*/
+
+    .box {
+        background-color: gray;
+        text-align: left;
+        margin-left: 0px;
+        padding: 8px;
+         border-radius: 10px;
+         border: none;
+        color: white;
+        font-size: small;
+        width:50%;
+         gap: 10px;
+
+      }
+
+   
+.map {
+    /* font-size: small; */
+    /* text-align: center; */
+    text-transform: lowercase; 
+
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: -30px;
+    margin-inline-end: 20px;
+    letter-spacing: 1px;
+    
+}
+    .contact-page{
+
+        width:100%;
+        display: flex;
+        padding: 50px;
+        align-items: flex-start;
+        max-width: 1400px;
+        flex-wrap: wrap;
+       
     }
+
+    textb{
+        height:50px;
+        background-color: grey;
+    }
+    
